@@ -6,6 +6,11 @@
 body{
     width: 100%;
     background-color: #F6F8F9;
+    font-family: "Open Sans", sans-serif;
+}
+
+main{
+    width: 100%;
 }
 
 .hcontainer{
@@ -17,3 +22,44 @@ body{
     font-size: 20px;
 }
 
+/* Main con container */
+
+.bcontainer, .container{
+    background-color: white;
+    width: 60%;
+}
+
+.bcontainer {
+    margin: 30px auto 0;
+    padding: 40px 0 10px 40px;
+}
+
+.container{
+    margin: 5px auto 0;
+    padding: 40px;
+}
+
+/* Buttons */
+
+#bluewhite, #whitegrey{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#bluewhite{
+    background-color: #47ADF1;
+    color: white;
+}
+
+/* Liste */
+
+.listbox{
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.listitle{
+    font-weight: bold;
+}
