@@ -63,3 +63,12 @@ main{
 .listitle{
     font-weight: bold;
 }
+
+span.checkmark-circle{
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid lightgreen;
+    color: lightgreen;
+    line-height: 15px;
+    font-size: 15px;
+}
