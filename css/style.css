@@ -58,6 +58,11 @@ header{
 
 /* Liste */
 
+span.triangle{
+    margin-right: 3px;
+    font-size: 30px;
+}
+
 p{
     display: inline-block;
 }
